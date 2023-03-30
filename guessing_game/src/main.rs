@@ -9,7 +9,7 @@ fn main() {
     let secret_number = rand::thread_rng().gen_range(1..=10); 
     
     loop {
-        println!("Please input your guess.");
+        println!("Please input your guess.(1,10)");
         
         let mut guess = String::new();
         
